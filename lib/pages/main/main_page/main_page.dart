@@ -8,7 +8,7 @@ import '../create/create_page.dart';
 import '../home/home_page.dart';
 import '../jobs/jobs_page.dart';
 import '../network/network_page.dar.dart';
-import '../notifications_page.dart';
+import '../notification/notifications_page.dart';
 class MainPage extends StatefulWidget {
   const MainPage({super.key});
 
