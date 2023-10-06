@@ -22,8 +22,10 @@ class _SplashPageState extends State<SplashPage> {
 
   @override
   void initState() {
+    
     Future.delayed(const Duration(milliseconds: 3000)).then((value) {
       Navigator.pushAndRemoveUntil(context, MaterialPageRoute(builder: (context)=>widget.child), (route) => false);
     });
+    super.initState();
   }
 }

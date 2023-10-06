@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:linkedin_mobile_clone/theme/styles.dart';
 
-import '../theme/styles.dart';
+
 
 class ButtonContainerWidget extends StatelessWidget {
   final double? width;
@@ -24,9 +24,9 @@ class ButtonContainerWidget extends StatelessWidget {
         decoration: BoxDecoration(
             color: linkedInBlue0077B5,
             borderRadius: BorderRadius.circular(20),
-            boxShadow: [
+            boxShadow: const [
               BoxShadow(
-                  offset: const Offset(0, 3),
+                  offset: Offset(0, 3),
                   spreadRadius: 0.5,
                   blurRadius: 4.5,
                   color: linkedInLightGreyCACCCE
